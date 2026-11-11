@@ -1,0 +1,2 @@
+StudyProject,DOI,Site,Region,Paired/Single,ReadLength,CHECKED IN SRA,ForwardPrimer,ReversePrimer,CHECKED IN METHODS,WantAllSamples,ALL CORRECT,Notes
+PRJNA734262,10.3389/fcimb.2021.665406,Gut,V3-V4,SINGLE,,,ACTCCTACGGGAGGCAGCAG,GGACTACHVGGGTWTCTAAT,,YES,,Flat Q30 quality scores (DADA2 learnErrors fails)

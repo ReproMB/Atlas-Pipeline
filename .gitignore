@@ -1,0 +1,29 @@
+# Nextflow
+work/
+results/
+.nextflow/
+.nextflow.log*
+pipeline_info/
+
+# Data and references (never committed)
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.qza
+*.qzv
+*.biom
+species/database/*.fasta.gz
+species/database/*.fna*
+species/database/*.fa.gz
+*.tar.gz
+
+# Python / R
+__pycache__/
+*.pyc
+.Rhistory
+
+# Editors and OS
+.DS_Store
+*.swp
+.idea/
+.vscode/

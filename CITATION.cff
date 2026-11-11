@@ -1,0 +1,97 @@
+cff-version: 1.2.0
+message: >-
+  If you use this pipeline, please cite the ReproMB Atlas article and this
+  software. Please also cite the original studies whose data you use.
+title: "ReproMB Atlas 16S rRNA processing pipeline"
+type: software
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/ReproMB/Atlas-Pipeline"
+authors:
+  - family-names: "Garach Vélez"
+    given-names: "Ignacio"
+    affiliation: "Department of Computer Engineering, Automatics and Robotics, ICAR, University of Granada, Granada, Spain"
+    orcid: "https://orcid.org/0009-0006-6618-7949"
+  - family-names: "Leonés-Baños"
+    given-names: "Irene"
+    affiliation: "Department of Biochemistry and Molecular Biology, Faculty of Sciences, University of Granada, Granada, Spain; Instituto de Investigación Biosanitaria ibs.GRANADA, Granada, Spain"
+  - family-names: "Folch"
+    given-names: "Bárbara A."
+    affiliation: "Department of Biochemistry and Molecular Biology, Faculty of Sciences, University of Granada, Granada, Spain; Instituto de Investigación Biosanitaria ibs.GRANADA, Granada, Spain"
+  - family-names: "Jalón"
+    given-names: "Beatriz"
+    affiliation: "Department of Computer Engineering, Automatics and Robotics, ICAR, University of Granada, Granada, Spain"
+  - family-names: "Abad"
+    given-names: "Vicente"
+    affiliation: "Department of Computer Engineering, Automatics and Robotics, ICAR, University of Granada, Granada, Spain"
+  - family-names: "Zhou"
+    given-names: "Shenghui"
+    affiliation: "Department of Biochemistry and Molecular Biology, Faculty of Sciences, University of Granada, Granada, Spain"
+  - family-names: "Yang"
+    given-names: "Congying"
+    affiliation: "Department of Biochemistry and Molecular Biology, Faculty of Sciences, University of Granada, Granada, Spain"
+  - family-names: "Tenorio"
+    given-names: "Celia M."
+    affiliation: "Department of Biochemistry and Molecular Biology, Faculty of Sciences, University of Granada, Granada, Spain; Instituto de Investigación Biosanitaria ibs.GRANADA, Granada, Spain"
+  - family-names: "Salas-Espejo"
+    given-names: "Eduardo"
+    affiliation: "Department of Biochemistry and Molecular Biology, Faculty of Sciences, University of Granada, Granada, Spain"
+  - family-names: "Rodríguez-Santisteban"
+    given-names: "Aida"
+    affiliation: "Department of Biochemistry and Molecular Biology II, Faculty of Pharmacy; Centre for Biomedical Research; José Mataix Verdú Institute of Nutrition and Food Technology (INYTA); University of Granada, Granada, Spain"
+  - family-names: "Pérez-Prieto"
+    given-names: "Inmaculada"
+    affiliation: "IVIRMA Global Research Alliance, IVI Foundation, Instituto de Investigación Sanitaria La Fe (IIS La Fe), Valencia, Spain"
+  - family-names: "Salumets"
+    given-names: "Andres"
+    affiliation: "Division of Obstetrics and Gynecology, Department of Clinical Science, Intervention and Technology CLINTEC, Karolinska Institutet, Stockholm, Sweden; Celvia CC AS, Tartu, Estonia; Department of Obstetrics and Gynecology, Institute of Clinical Medicine, University of Tartu, Tartu, Estonia"
+  - family-names: "Moreno"
+    given-names: "Inmaculada"
+    affiliation: "Carlos Simon Foundation, Valencia, Spain; INCLIVA Biomedical Research Institute, Valencia, Spain"
+  - family-names: "Simón"
+    given-names: "Carlos"
+    affiliation: "Carlos Simon Foundation, Valencia, Spain; INCLIVA Biomedical Research Institute, Valencia, Spain; Department of Pediatrics, Obstetrics and Gynecology, School of Medicine, University of Valencia, Valencia, Spain; Department of Obstetrics and Gynecology, Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, MA, USA"
+  - family-names: "Guillén"
+    given-names: "Alberto"
+    affiliation: "Department of Computer Engineering, Automatics and Robotics, ICAR, University of Granada, Granada, Spain"
+  - family-names: "Ortuño"
+    given-names: "Francisco M."
+    affiliation: "Department of Computer Engineering, Automatics and Robotics, ICAR, University of Granada, Granada, Spain"
+  - family-names: "Rojas"
+    given-names: "Ignacio"
+    affiliation: "Department of Computer Engineering, Automatics and Robotics, ICAR, University of Granada, Granada, Spain"
+  - family-names: "Castilla"
+    given-names: "José Antonio"
+    affiliation: "Instituto de Investigación Biosanitaria ibs.GRANADA, Granada, Spain; Department of Human Anatomy and Embryology, Faculty of Medicine, University of Granada, Granada, Spain"
+  - family-names: "Herrera"
+    given-names: "Luis J."
+    affiliation: "Department of Computer Engineering, Automatics and Robotics, ICAR, University of Granada, Granada, Spain"
+    orcid: "https://orcid.org/0000-0003-3220-9389"
+  - family-names: "Altmäe"
+    given-names: "Signe"
+    affiliation: "Department of Biochemistry and Molecular Biology, Faculty of Sciences, University of Granada, Granada, Spain; Instituto de Investigación Biosanitaria ibs.GRANADA, Granada, Spain; Division of Obstetrics and Gynecology, Department of Clinical Science, Intervention and Technology CLINTEC, Karolinska Institutet, Stockholm, Sweden; Department of Gynecology and Reproductive Medicine, Karolinska University Hospital, Huddinge, Stockholm, Sweden"
+    orcid: "https://orcid.org/0000-0002-0708-1865"
+# Ignacio Garach Vélez and Irene Leonés-Baños contributed equally.
+# Pending on publication: Zenodo DOI and preferred-citation (the ReproMB Atlas
+# article).
+keywords:
+  - 16S rRNA
+  - amplicon sequencing
+  - Nextflow
+  - QIIME 2
+  - DADA2
+  - Deblur
+  - microbiome
+  - female reproductive tract
+references:
+  - type: article
+    title: "A citizen-science-enabled catalogue of the vaginal microbiome and associated factors"
+    authors:
+      - family-names: "Lebeer"
+        given-names: "Sarah"
+    journal: "Nature Microbiology"
+    volume: 8
+    start: 2183
+    end: 2195
+    year: 2023
+    doi: "10.1038/s41564-023-01500-0"
